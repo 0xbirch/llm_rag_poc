@@ -1,0 +1,13 @@
+name: rag-trading-poc
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - sqlite
+  - pip
+  - pip:
+      - openai
+      - langchain
+      - python-dotenv
