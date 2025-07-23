@@ -21,8 +21,6 @@ The goal is to demonstrate how Large Language Models (LLMs) can be combined with
 - **OpenAI SDK (v1+)**
 - **LangChain** (or custom retrieval layer)
 - **SQLite / Pandas** for tabular data
-- **Streamlit** (optional, for UI)
-
 ---
 
 ## 🚀 Getting Started
