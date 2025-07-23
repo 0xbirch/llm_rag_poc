@@ -8,7 +8,7 @@ The goal is to demonstrate how Large Language Models (LLMs) can be combined with
 
 ## 🔍 Project Purpose
 
-- Integrate OpenAI's GPT-4 API with a custom retrieval layer
+- Integrate LLMs (GPT-4 / Gemini Flash 2.0) with a retrieval layer
 - Load trading signal data (e.g. CSV, SQLite) as external context
 - Build a lightweight local interface for querying trading-related data
 - Evaluate how RAG enhances LLM accuracy and relevance in a financial context
@@ -64,6 +64,10 @@ rag-trading-poc/
   - “Show all trades where RSI < 30 and MACD turned positive.”
   - "Where am I most vulnerable based on the trades I made yesterday"
 - 🧠 LLM uses both prompt + retrieved context to generate answers
+
+- 🧠 Choose between:
+  - OpenAI GPT-based model
+  - Gemini 2.0 Flash for high-power, large-context reasoning
 
 ---
 
